@@ -1,25 +1,3 @@
-""""
-İlk olarak bir tam sayı ile mail adresinin @ işaretinden sonraki uzunluğunu girersiniz. Daha sonrasında ise mail adreslerini girerek geçerli bir adres olup olmadığını bize döndüren programı yazmalısınız.
-Geçerli e-posta adresleri şu kurallara uymalıdır:
-•	kullanıcıAdı@websiteSağlayıcı.siteUzantısı.ülkeKodu biçim türüne sahip olmalıdır .
-•	Kullanıcı adı yalnızca harf, rakam, kısa çizgi ve alt çizgi içerebilir.
-•	Web sitesi adı yalnızca harf ve rakamlardan oluşabilir.
-•	Uzantının maksimum uzunluğu 3 olmalıdır. ( websitesağlayıcı.siteuzantısı veya websitesağlayıcı veya websiteSağlayıcı.siteUzantısı.ülkeKodu  bilgilerini içermelidir.
-
-Giriş Formatı
-1.	İlk olarak uzantı uzunluğunu giriniz.
-2.	Daha sonrasında mail adresini giriniz.
-3.	Sonucu ekrana yazdırınız. ( Mail Adresi Uygundur veya mail adresi uygun değildir. )
-
-Kısıtlamalar
-Mail Doğrulamayı bir fonksiyon kullanarak yapmalısın.
-Fonksiyon çıktı olarak bir bool döndürmelidir.
-Gelen bool true ise mail adresi doğru, false ise yanlış olarak kabul edilecektir.
-Çıkış formatı
-3
-Gaziuniversitesi@gazi.edu.tr
-Mail adresiniz doğrudur.
-"""
 def kontrol(mail):
     parcalaMail = mail.split("@")
     kAd = parcalaMail[0]
