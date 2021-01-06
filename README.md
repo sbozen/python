@@ -1,2 +1,2 @@
 # python example
-#look at the master dir
+# look at the master branches
